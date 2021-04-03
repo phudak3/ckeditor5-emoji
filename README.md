@@ -60,7 +60,7 @@ InlineEditor
     } );
 ```
 
-or add plugin to custom editor builder:
+**or** add plugin to custom editor builder:
 
 ```javascript
 InlineEditor.builtinPlugins = [
@@ -77,9 +77,7 @@ InlineEditor.builtinPlugins = [
 ]
 ```
 
-4. Add imported plugin to toolbar
-
-Add the Emoji plugin to toolbar
+4. Add the Emoji plugin to toolbar
 
 Add plugin to build:
 
@@ -97,7 +95,7 @@ InlineEditor
     } );
 ```
 
-or add plugin to custom editor builder:
+**or** add plugin to custom editor builder:
 
 ```javascript
 InlineEditor.defaultConfig = {
@@ -129,7 +127,7 @@ Emoji are divided into categories:
 - Places
 - Symbols
 
-You can choose specific categories or import all.
+You can choose specific categories or import all of them.
 
 
 
