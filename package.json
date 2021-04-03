@@ -1,6 +1,6 @@
 {
   "name": "@phudak/ckeditor5-emoji",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Emoji plugin for CKEditor 5",
   "keywords": [
     "ckeditor",
