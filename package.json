@@ -34,8 +34,13 @@
     "node": ">=12.0.0",
     "npm": ">=5.7.1"
   },
-  "author": "Patrik Hudak",
+  "author": "Patrik Hudak <patrik.hudak2@gmail.com>",
   "license": "GPL-2.0-or-later",
+  "bugs": "https://github.com/phudak3/ckeditor5-emoji/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phudak3/ckeditor5-emoji.git"
+  },
   "files": [
     "lang",
     "src",
