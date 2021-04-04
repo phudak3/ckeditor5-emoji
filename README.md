@@ -1,10 +1,16 @@
-## CKEditor 5 Emoji plugin
+# CKEditor 5 Emoji plugin
+
+[![npm](https://img.shields.io/npm/v/@phudak/ckeditor5-emoji)](https://www.npmjs.com/package/@phudak/ckeditor5-emoji)
+[![npm](https://img.shields.io/npm/dw/@phudak/ckeditor5-emoji)](https://www.npmjs.com/package/@phudak/ckeditor5-emoji)
+[![npm bundle size](https://img.shields.io/bundlephobia/min/@phudak/ckeditor5-emoji)](https://www.npmjs.com/package/@phudak/ckeditor5-emoji)
+[![NPM](https://img.shields.io/npm/l/@phudak/ckeditor5-emoji)](https://www.npmjs.com/package/@phudak/ckeditor5-emoji)
+
 
 Emoji plugin using a modified version of the ckeditor5 SpecialCharacters plugin.
 
 ![Preview Image](preview.png "Preview Image")
 
-### Setup
+## Setup
 
 1. Installation
 
@@ -20,6 +26,7 @@ Import the Emoji plugin with all optional categories. If you want to exclude som
 
 ```javascript
 import Emoji from '@phudak/ckeditor5-emoji/src/emoji';
+
 import EmojiPeople from "@phudak/ckeditor5-emoji/src/emoji-people";
 import EmojiNature from "@phudak/ckeditor5-emoji/src/emoji-nature";
 import EmojiFood from "@phudak/ckeditor5-emoji/src/emoji-food";
@@ -66,14 +73,14 @@ InlineEditor
 InlineEditor.builtinPlugins = [
     ...
     Emoji,
-	EmojiPeople,
-	EmojiNature,
-	EmojiPlaces,
-	EmojiFood,
-	EmojiActivity,
-	EmojiObjects,
-	EmojiSymbols,
-	EmojiFlags,
+    EmojiPeople,
+    EmojiNature,
+    EmojiPlaces,
+    EmojiFood,
+    EmojiActivity,
+    EmojiObjects,
+    EmojiSymbols,
+    EmojiFlags,
 ]
 ```
 
@@ -99,21 +106,21 @@ InlineEditor
 
 ```javascript
 InlineEditor.defaultConfig = {
-	toolbar: {
-		items: [
+    toolbar: {
+        items: [
             ...,
-			'emoji',
-			'|',
-			'undo',
-			'redo'
-		]
-	},
+	    'emoji',
+	    '|',
+	    'undo',
+	    'redo'
+	]
+    },
 };
 ```
 
 5. Enjoy
 
-### Emoji Set
+## Emoji Set
 
 Emoji are divided into categories:
 
