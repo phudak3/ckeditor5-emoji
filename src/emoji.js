@@ -1,7 +1,7 @@
-import { Plugin } from 'ckeditor5/src/core';
-import { Typing } from 'ckeditor5/src/typing';
-import { createDropdown } from 'ckeditor5/src/ui';
-import { CKEditorError } from 'ckeditor5/src/utils';
+import { Plugin } from '@ckeditor/ckeditor5-core';
+import { Typing } from '@ckeditor/ckeditor5-typing';
+import { createDropdown } from '@ckeditor/ckeditor5-ui';
+import { CKEditorError } from '@ckeditor/ckeditor5-utils';
 import EmojiCharactersNavigationView from './ui/emojicharactersnavigationview';
 import CharacterGridView from './ui/charactergridview';
 import CharacterInfoView from './ui/characterinfoview';

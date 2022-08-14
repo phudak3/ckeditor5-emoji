@@ -8,7 +8,7 @@ import EmojiPeople from './emoji-people';
 import EmojiPlaces from './emoji-places';
 import EmojiSymbols from './emoji-symbols';
 
-export default {
+export {
     Emoji,
     EmojiActivity,
     EmojiFlags,
