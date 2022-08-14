@@ -28,7 +28,7 @@ Import the Emoji plugin with all optional categories. If you want to exclude som
 import {
     Emoji, EmojiActivity, EmojiFlags, EmojiFood, EmojiNature, EmojiObjects, EmojiPeople,
     EmojiPlaces, EmojiSymbols
-} from './emoji/src';
+} from '@phudak/ckeditor5-emoji/src';
 ```
 
 3. Add imported modules to plugins 
@@ -113,6 +113,14 @@ InlineEditor.defaultConfig = {
 ```
 
 5. Enjoy
+
+### Integration examples
+
+You can check my Emoji plugin integration into custom CKEditor builds here:
+
+- [@phudak/ckeditor5-build-inline-simple](https://www.npmjs.com/package/@phudak/ckeditor5-build-inline-simple)
+- [@phudak/ckeditor5-build-inline-basic](https://www.npmjs.com/package/@phudak/ckeditor5-build-inline-basic)
+- [@phudak/ckeditor5-build-inline-full](https://www.npmjs.com/package/@phudak/ckeditor5-build-inline-full)
 
 ## Emoji Set
 
