@@ -1,5 +1,5 @@
 import { Collection } from '@ckeditor/ckeditor5-utils';
-import { Model, FormHeaderView, createDropdown, addListToDropdown } from '@ckeditor/ckeditor5-ui';
+import { ViewModel, FormHeaderView, createDropdown, addListToDropdown } from '@ckeditor/ckeditor5-ui';
 
 export default class EmojiCharactersNavigationView extends FormHeaderView {
 
@@ -72,7 +72,7 @@ export default class EmojiCharactersNavigationView extends FormHeaderView {
 		for ( const name of groupNames ) {
 			const definition = {
 				type: 'button',
-				model: new Model( {
+				model: new ViewModel( {
 					label: name,
 					withText: true
 				} )
